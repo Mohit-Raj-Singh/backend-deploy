@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 })
 
 app.use("/users", userRouter)
-app.use(authentication);
+// app.use(authentication);
 app.use("/post",postRouter)
 
 
